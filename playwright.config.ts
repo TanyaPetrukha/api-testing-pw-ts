@@ -55,9 +55,14 @@ export default defineConfig({
     {
       name: "spotify",
       testDir: "./tests/spotify",
-      use:{
+      use: {
         baseURL: "https://api.spotify.com",
-      }
+      },
+    },
+
+    {
+      name: "builder_and_factory",
+      testDir: "./tests/builder_and_factory",
     },
 
     // {
